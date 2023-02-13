@@ -1,0 +1,23 @@
+{
+  "name": "doge-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "doge.js",
+  "type": "module",
+  "scripts": {
+    "start": "node doge.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "image-downloader": "^4.3.0",
+    "is-online": "^10.0.0",
+    "node-fetch": "^3.2.6",
+    "playwright": "^1.22.2",
+    "unsplash-js": "^7.0.15"
+  }
+}
