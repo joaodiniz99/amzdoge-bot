@@ -137,7 +137,7 @@ const boost = async () => {
         await page.waitForTimeout(3000);
 
         const publish_username = process.env.PUBLISH_USERNAME;
-        const publish_password = "#" + process.env.PUBLISH_PASSWORD;
+        const publish_password = process.env.PUBLISH_PASSWORD;
         await signIn(publish_username, publish_password, page);
 
         const strategy = await page.$('"My strategy"');
