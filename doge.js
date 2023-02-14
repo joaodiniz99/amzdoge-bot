@@ -45,7 +45,7 @@ const signIn = async (username, password, page) => {
 const strategy = async () => {
     try {
         const browser = await playwright[browserType].launch({
-            headless: false,
+            headless: true,
         });
         const context = await browser.newContext();
         const page = await context.newPage();
